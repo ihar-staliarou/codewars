@@ -17,6 +17,6 @@
 
 //SOLUTION
 function sumStr(a,b) {
-    c = parseInt(a) + parseInt(b);
-    return c.toString();
+    c = (+a + +b)
+    return String(c);
   }
